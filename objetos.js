@@ -95,3 +95,22 @@ const myDog = {
 };
 //Solución
 myDog.name = 'Happy Coder';
+
+//AÑADIR NUEVAS PROPIEDADES
+//Ejemplo: Así es como podríamos agregar una propiedad BARK a nuestro objeto ourDog:
+ourDog.bark = 'bow-wow'; // ó ourDog['bark'] = 'bow-wow'; 
+
+//EJERCICIO: Añade una propiedad bark a myDog y establécela a un sonido de perro, como "woof".
+//Puedes usar tanto la notación de puntos como la notación de corchetes.
+//Solución
+myDog.bark = 'woof';
+
+//ELIMINAR PROPIEDADES DE OBJETOS
+//También podemos eliminar propiedades de objetos de esta forma:
+
+delete ourDog.bark;
+
+//Elimina la propiedad tails de myDog.
+// Puedes usar tanto la notación de puntos como la notación de corchetes.
+//Solución
+delete myDog.tails;
